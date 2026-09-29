@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=Chromium Kiosk
-Exec=bash -c "sleep 7 && chromium-browser --password-store=basic --kiosk --incognito --noerrdialogs --disable-infobars --ignore-certificate-errors --check-for-update-interval=31536000 https://absensi.umsu.ac.id/qr/21"
+Exec=bash -c "sleep 7 && chromium-browser --kiosk --noerrdialogs --disable-infobars --ignore-certificate-errors --check-for-update-interval=31536000 https://absensi.umsu.ac.id/qr/21"
 X-GNOME-Autostart-enabled=true
